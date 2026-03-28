@@ -1,4 +1,4 @@
-# IsaacLab-Pendulum-RL: 单/双/三级倒立摆强化学习环境
+# IsaacLab-Pendulum-RL: 单级&双级&三级倒立摆强化学习环境
 
 本项目基于 **NVIDIA IsaacLab** 构建，包含单级、双级和三级倒立摆（Cartpole）的强化学习自定义环境。针对多级倒立摆这一经典的混沌系统，本项目对官方基线环境进行了深度重构与优化，旨在提供一个更高效、更稳定的连续控制算法验证平台。
 
@@ -46,8 +46,7 @@ cd IsaacLab
 本项目作为 IsaacLab 的外部扩展（Out-of-Tree Extension）运行。克隆本仓库后，可直接通过内置脚本启动训练。
 
 ```bash
-# 1. 克隆本项目并进入代码目录
-git clone [https://github.com/你的用户名/IsaacLab_pendulum_rl.git](https://github.com/你的用户名/IsaacLab_pendulum_rl.git)
+# 1. 进入代码目录
 cd IsaacLab_pendulum_rl
 
 # 2. 激活之前配置好的 conda 环境

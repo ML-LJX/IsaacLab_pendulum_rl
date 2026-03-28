@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+logs/
+runs/
+*.pth
+*.pt
+venv/
+.vscode/

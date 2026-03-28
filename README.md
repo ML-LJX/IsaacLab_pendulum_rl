@@ -45,6 +45,15 @@ cd IsaacLab
 
 本项目作为 IsaacLab 的外部扩展（Out-of-Tree Extension）运行。克隆本仓库后，可直接通过内置脚本启动训练。
 
+```bash
+# 1. 克隆本项目并进入代码目录
+git clone [https://github.com/你的用户名/IsaacLab_pendulum_rl.git](https://github.com/你的用户名/IsaacLab_pendulum_rl.git)
+cd IsaacLab_pendulum_rl
+
+# 2. 激活之前配置好的 conda 环境
+conda activate isaaclab_env
+```
+
 ### 训练模型
 
 为了获得更快的训练速度，建议在无头模式（`--headless`）下进行训练：
